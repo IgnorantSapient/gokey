@@ -1,4 +1,4 @@
-module github.com/cloudflare/gokey
+module github.com/IgnorantSapient/gokey
 
 go 1.13
 
