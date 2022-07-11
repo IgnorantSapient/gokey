@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudflare/gokey"
+	"github.com/IgnorantSapient/gokey"
 )
 
 func pemEqual(pem1, pem2 string, t *testing.T) bool {

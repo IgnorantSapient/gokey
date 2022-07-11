@@ -11,7 +11,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cloudflare/gokey"
+	"github.com/IgnorantSapient/gokey"
 	"golang.org/x/crypto/ssh/terminal"
 )
 
