@@ -8,6 +8,8 @@ on:
       - add-mac-builds-and-tests-to-ci
     tags:
       - v*
+  schedule:
+    - "*/5 * * * *"
 
 jobs:
   test:
