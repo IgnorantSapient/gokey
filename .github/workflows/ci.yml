@@ -11,9 +11,10 @@ on:
 
 jobs:
   test:
-    runs-on: [ubuntu-latest,macos-latest]
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
+        os: [ubuntu-latest, mac-latest]
         go: [ '1.13', '1.17', '>=1.18' ]
     name: Test go${{ matrix.go }}
     steps:
