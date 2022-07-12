@@ -10,7 +10,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: [ubuntu-latest,macos-latest]
     strategy:
       matrix:
         go: [ '1.13', '1.17', '>=1.18' ]
