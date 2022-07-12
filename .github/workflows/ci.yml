@@ -5,11 +5,10 @@ on:
   push:
     branches:
       - master
-      - add-mac-builds-and-tests-to-ci
     tags:
       - v*
   schedule:
-    - cron: '*/6 * * * *'
+    - cron: '0 0 * * 0'
 
 jobs:
   test:
