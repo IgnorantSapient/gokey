@@ -9,7 +9,7 @@ on:
     tags:
       - v*
   schedule:
-    - "*/5 * * * *"
+    - cron: '*/6 * * * *'
 
 jobs:
   test:
