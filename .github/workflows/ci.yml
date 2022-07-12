@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - add-mac-builds-and-tests-to-ci
     tags:
       - v*
 
